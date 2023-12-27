@@ -1,0 +1,221 @@
+body {
+    background-color: antiquewhite;
+    font-size: 90%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px;
+    height: 20px;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #deb887;
+}
+
+.container {
+    width: 800px;
+    height: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+.block {
+    background-color: #fafafa;
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.title {
+    width: fit-content;
+    font-weight: bold;
+    font-size: larger;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.type-select {
+    font-size: 100%;
+    font-weight: bold;
+    width: 70px;
+    background-color: #F7DC6F;
+}
+
+input {
+    background-color: #F7DC6F;
+}
+
+textarea {
+    height: 150px;
+    background-color: #F7DC6F;
+}
+
+.year-input {
+    margin-left: 20px;
+    width: 50px;
+}
+
+.month-input {
+    width: 40px;
+}
+
+.cell-input {
+    width: calc(100% - 8px);
+    margin: auto;
+}
+
+.inner-table {
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.table-with-colspan {
+    table-layout: auto;
+}
+
+.detail-cell {
+    width: 50%;
+}
+
+.amount-cell {
+    width: 15%;
+}
+
+.bank-name-cell {
+    width: 25%;
+}
+
+.branch-name-cell {
+    width: 25%;
+}
+
+.account-number-cell {
+    width: 20%;
+}
+
+.amount {
+    text-align: right;
+}
+
+.note {
+    border: solid 1px;
+    height: 90px;
+    padding: 2px 5px;
+}
+
+.note-title {
+    font-weight: bold;
+}
+
+.note-textarea {
+    height: 60px;
+}
+
+.button-container {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.submit-button, .create-button {
+    border: solid #228b22;
+    border-radius: 3px;
+    background-color: #98fb98;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-left: 5px;
+}
+
+.submit-button:hover, .create-button:hover {
+    background-color: #88eb88;
+}
+
+.submit-button:active, .create-button:active {
+    box-shadow: 0 0 0 2px #228b22;
+}
+
+.duplicate-button {
+    border: solid #228b22;
+    border-radius: 3px;
+    background-color: #90ee90;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-left: 5px;
+}
+
+.duplicate-button:hover {
+    background-color: #80de80;
+}
+
+.duplicate-button:active {
+    box-shadow: 0 0 0 2px #228b22;
+}
+
+.update-button {
+    border: solid #b8860b;
+    border-radius: 3px;
+    background-color: #fff69c;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-left: 5px;
+}
+
+.update-button:hover {
+    background-color: #f0e68c;
+}
+
+.update-button:active {
+    box-shadow: 0 0 0 2px #b8860b;
+}
+
+.delete-button {
+    color: #fafafa;
+    border: solid #800000;
+    border-radius: 3px;
+    background-color: #ef3500;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin-left: 5px;
+}
+
+.delete-button:hover {
+    background-color: #df2500;
+}
+
+.delete-button:active {
+    box-shadow: 0 0 0 2px #800000;
+}
+
+.cancel-button {
+    border: solid #808080;
+    border-radius: 3px;
+    background-color: #dcdcdc;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
+.cancel-button:hover {
+    background-color: #cccccc;
+}
+
+.cancel-button:active {
+    box-shadow: 0 0 0 2px #808080;
+}
